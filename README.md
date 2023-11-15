@@ -4,7 +4,7 @@ File Manager system using Node.js, Postgres and Amazon S3.
 ## Instructions for running
 
 1. Clone this repository
-   >https://github.com/Microwiseto/File-Manager.git
+   >git clone https://github.com/Microwiseto/File-Manager.git
 
 2. Install node packages in File-Manager directory
    >npm install
