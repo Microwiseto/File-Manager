@@ -1,0 +1,40 @@
+POST at '/user/register'
+{
+    "username": "userName1",
+    "email": "email@email.com",
+    "password": "password1"
+}
+POST at '/user/login'
+{
+    "username": "userName1",
+    "password": "password1"
+}
+POST at '/create/folder'
+{
+    "folder": "folder1"
+}
+POST at '/create/subfolder'
+{
+    "folder": "folder1",
+    "subfolder": "subfolder1"
+}
+POST at '/file/upload'
+{
+    "folder": "folder1",
+    "subfolder": "subfolder1",
+    "file": "samplefile1.txt",
+    "contents": "This is a sample file"
+}
+DELETE at '/file/delete'
+{
+    "folder": "folder1",
+    "subfolder": "subfolder1",
+    "file": "samplefile1.txt",
+}
+PATCH at '/file/rename'
+{
+    "folder": "folder1",
+    "subfolder": "subfolder1",
+    "oldfile": "samplefile1.txt",
+    "newfile": "samplefile2.txt",
+}
